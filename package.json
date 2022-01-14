@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-int-trial",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=\"--max_old_space_size=512\" next dev",
+    "build": "next build",
+    "start": "NODE_OPTIONS=\"--max_old_space_size=512\" next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
+  }
+}
